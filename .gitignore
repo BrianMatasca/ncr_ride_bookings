@@ -6,7 +6,7 @@ virtualenv/
 .env/
 .venv/
 # Archivos de Python
-__pycache__/
+__pycache__
 # Archivos de IDE
 .vscode/
 .idea/
