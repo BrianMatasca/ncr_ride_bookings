@@ -1,6 +1,7 @@
+from util import ETL;
+
 def main():
-    print("Hola, este es mi programa principal")
-    # Resto de la lógica de tu programa
+    etl_process = ETL("source_data", "destination_data")
 
 if __name__ == "__main__":
     main()
